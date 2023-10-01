@@ -14,6 +14,9 @@ header{
     left: 7px;
     font-size: 20px;
 }
+body{
+    background-image: linear-gradient(to right,#7F7FD5,#91EAE4);
+}
 .container{
     display: flex;
     margin-top: 20px;
@@ -33,6 +36,13 @@ header{
     grid-template-columns: repeat(3,10vw);
     grid-template-rows: repeat(3,10vw);
     cursor:pointer;
+    
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .sec{
     border: 2px solid black;
